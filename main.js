@@ -2,8 +2,44 @@
  * YOUR CODE BELOW! *
  ********************/
 
+// Initializing variables
+let iGetTheJoke = true;
+let havingFun = true;
+let learning = true;
+let killingIt = learning && havingFun;
 
+// Functions
+function returnFalse(p) {
+  return false;
+}
 
+function isOpposite(bool) {
+  return !bool;
+}
+
+function both(bool1, bool2) {
+  return bool1 && bool2;
+}
+
+function either(bool1, bool2) {
+  return bool1 || bool2;
+}
+
+function firstOnly(bool1, bool2) {
+  return bool1 && !bool2;
+}
+
+function secondOnly(bool1, bool2) {
+  return !bool1 && bool2;
+}
+
+function neither(bool1, bool2) {
+  return !bool1 && !bool2;
+}
+
+function itsComplicated(bool1, bool2, bool3) {
+  return !bool1 || (bool2 && bool3);
+}
 
 
 /********************************************************************************************
